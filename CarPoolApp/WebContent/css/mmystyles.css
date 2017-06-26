@@ -1,0 +1,180 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.row-content h1,h2,h3{
+    font-weight: bold;
+}
+
+.row-footer{
+    background-color: #AfAfAf;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.jumbotron{
+    
+    padding: 70px 30px 70px 30px;
+    margin:0px auto;
+    background:#7986CB;
+    color:floralwhite;
+        
+}
+address{
+    font-size: 80%;
+    margin:0px auto;
+    color:#0f0f0f;
+    
+}
+.navbar-inverse {
+     background: #303F9F;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+/*
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:active {
+    color: #fff;
+    background: #1A237E;
+}
+*/
+
+button.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	padding-left: 20px;
+}
+
+button.accordion.active, button.accordion:hover {
+	background-color: #ddd;
+}
+
+
+div.panel {
+	padding: 0 18px;
+	display: block;
+	background-color: white;
+}
+
+.displayweather {
+	padding-top: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	visibility: hidden;
+}
+
+.selectCity {
+	width: 300px;
+	border-color: gray;
+}
+#map{
+	width:300px;
+	height:300px;
+}
+.imagediv>.img-polaroid
+{
+padding-top: 25px;
+width:50px;
+height:50px;
+
+
+}
+.imagediv a{
+  text-decoration: none;
+}
+.imagediv a:hover{
+  text-decoration: none;
+  background-color: gray;
+}
+
+.imagediv
+{
+  padding-top: 25px;
+width: 200px;
+height: 350px;
+text-align: center;
+padding-right:25px;
+border-radius: 25px;
+background-color: floralwhite;
+}
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+}
